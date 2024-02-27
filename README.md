@@ -14,7 +14,7 @@ git clone [repository_url]
 ### Navigate to the Project Directory
 
 ```bash
-cd React-Test
+cd react-test
 
 ### Install Dependencies
 
