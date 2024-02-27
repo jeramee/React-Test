@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import UuidDisplay from './UuidDisplay';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* Removed default content */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Added your custom content */}
+          <code>Your React App with Generated UUID:</code>
         </p>
+        <UuidDisplay />
         <a
           className="App-link"
           href="https://reactjs.org"
